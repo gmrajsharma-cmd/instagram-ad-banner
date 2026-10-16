@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sponsored ad test</title>
+<style>
+html,body{margin:0;width:468px;height:60px;overflow:hidden;background:#fff;font:12px Arial,sans-serif}
+#status{padding:5px;color:#555}
+</style>
+</head>
+<body>
+<div id="status">Loading sponsored ad…</div>
+<script>
+window.atOptions = {
+  key: '352bd5a814a113c324a346180c0d5f38',
+  format: 'iframe',
+  height: 60,
+  width: 468,
+  params: {}
+};
+</script>
+<script src="https://bicea.org/22/352bd5a814a113c324a346180c0d5f38"
+        onload="document.getElementById('status')?.remove()"
+        onerror="document.getElementById('status').textContent='Ad script failed to load. Check provider settings.'"></script>
+</body>
+</html>
